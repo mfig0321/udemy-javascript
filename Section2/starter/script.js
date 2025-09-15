@@ -25,7 +25,6 @@ let job1 = 'programmer';
 let job2 = 'teacher';
 
 console.log(myFirstJob);
-*/
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -46,3 +45,20 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null); // this is a bug in JavaScript, it should return 'object' but it returns 'null'
+*/
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990; // This will throw an error because birthYear is a constant 
+// const job; // This will throw an error because const variables must be initialized at the time of declaration
+
+var job = 'programmer';
+job = 'teacher';
+
+lastName = 'Schmedtmann'; // This will create a global variable, which is not recommended
+console.log(lastName);
+
+
+
+console.log('End main script file: Section2/starter/script.js');
