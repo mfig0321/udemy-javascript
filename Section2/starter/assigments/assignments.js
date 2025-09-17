@@ -15,7 +15,7 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
-*/
+
 
 
 // Let and const demonstration
@@ -26,5 +26,5 @@ const continent = 'North America';
 const isIsland = false;
 
 isIsland = true; // This will throw an error because isIsland is a constant
-
+*/
 
