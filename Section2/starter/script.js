@@ -147,7 +147,7 @@ if(birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
-*/
+
 
 // Types coercion and conversion
 
@@ -160,7 +160,7 @@ console.log(Number('Jonas'));   // this will return NaN (Not a Number)
 console.log(typeof NaN);        // this will return 'number'
 
 console.log(String(23), 23);   // this will convert the number 23 to a string
-console.log('End main script file: Section2/starter/script.js');
+
 
 ///// Type coercion
 console.log('I am ' + 23 + ' years old'); // this will convert the number 23 to a string
@@ -173,3 +173,30 @@ let n = '1' + 1; // '11' = String
 n = n - 1; // 11 - 1 = 10 = Number
 console.log(n); // FInal result is 10 of Type Number
 
+*/
+
+// Truthy and Falsy values
+
+// Falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean('Jonas')); // true
+console.log(Boolean({})); // true
+console.log(Boolean('')); // false
+
+const money = 100;
+console.log(Boolean(money)); // false
+if(money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log('You should get a job!');
+}
+
+let height;
+if(height) {
+    console.log('YAY! Height is defined');
+} else {
+    console.log('Height is UNDEFINED');
+}
+console.log('End main script file: Section2/starter/script.js');
