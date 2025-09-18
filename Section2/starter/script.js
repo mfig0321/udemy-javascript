@@ -126,7 +126,7 @@ lines');
 console.log(`String with
 multiple
 lines`);
-*/
+
 
 // Taking Decisions: if / else Statements
 
@@ -147,5 +147,29 @@ if(birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
 
+// Types coercion and conversion
+
+///// Type conversion
+const inputYear = '1991'; // this is a string
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));   // this will return NaN (Not a Number)
+console.log(typeof NaN);        // this will return 'number'
+
+console.log(String(23), 23);   // this will convert the number 23 to a string
 console.log('End main script file: Section2/starter/script.js');
+
+///// Type coercion
+console.log('I am ' + 23 + ' years old'); // this will convert the number 23 to a string
+console.log('23' - '10' - 3); // this will convert the strings to numbers
+console.log('23' + '10' + 3); // this will concatenate the strings
+console.log('23' * '2'); // this will convert the strings to numbers
+console.log('23' / '2'); // this will convert the strings to numbers
+
+let n = '1' + 1; // '11' = String
+n = n - 1; // 11 - 1 = 10 = Number
+console.log(n); // FInal result is 10 of Type Number
+
