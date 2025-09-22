@@ -200,7 +200,7 @@ if(height) {
     console.log('Height is UNDEFINED');
 }
 
-*/
+
 
 // Equality Operators: == vs. ===
 
@@ -224,6 +224,27 @@ if(favorite === 23) { // '23' === 23 -> false
 }
 
 if(favorite !== 23) console.log('Why not 23?');
-console.log('End main script file: Section2/starter/script.js');
 
+*/
 
+// Boolean logic && Logical Operators
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if(hasDriversLicense && hasGoodVision) {
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drive...');
+// }
+
+const isTired = false; // C
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!');
+} else {
+    console.log('Someone else should drive...');
+}
