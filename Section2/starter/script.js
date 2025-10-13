@@ -274,7 +274,7 @@ switch(day){
     default:
         console.log('Not a valid day!');    
 }
-*/
+
 // The conditional (Ternary) Operator
 
 const age = 23;
@@ -294,4 +294,5 @@ if(age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/
 
